@@ -12,10 +12,10 @@ public class Ejercicio3 {
         puntos = scanner.nextInt();
 
         if (puntos < 1000)
-            System.out.println("Usted es cliente bronce");
+            System.out.println("Cliente bronce");
         else if (puntos <= 3000)
-            System.out.println("Usted es cliente plata");
+            System.out.println("Cliente plata");
         else
-            System.out.println("Usted es cliente oro");
+            System.out.println("Cliente oro");
     }
 }
