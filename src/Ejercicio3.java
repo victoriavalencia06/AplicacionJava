@@ -13,9 +13,11 @@ public class Ejercicio3 {
 
         if (puntos < 1000)
             System.out.println("Cliente bronce");
-        else if (puntos <= 3000)
+        else if (puntos <= 3000) {
             System.out.println("Cliente plata");
-        else
+        }
+        else {
             System.out.println("Cliente oro");
+        }
     }
 }
